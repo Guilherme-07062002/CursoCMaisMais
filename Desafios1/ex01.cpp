@@ -4,7 +4,7 @@ using namespace std;
 
 int calcularX(int x)
 {
-    int resultado = (x * x) - ((3 * x) + 5);
+    int resultado = x * x - 3 * x + 5;
     return resultado;
 }
 
